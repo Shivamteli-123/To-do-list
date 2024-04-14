@@ -1,0 +1,86 @@
+/* Add your styling here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 35%;
+    right: 15%;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    right: 25%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#taskInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#taskInput::placeholder {
+    color: #aaa;
+}
+
+#addButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#addButton:hover {
+    background-color: #0056b3;
+}
+#deleteButton {
+    background-color: #ff6347; /* Coral red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#deleteButton:hover {
+    background-color: #e74c3c; /* Darker red on hover */
+}
